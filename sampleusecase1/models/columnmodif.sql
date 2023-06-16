@@ -12,4 +12,4 @@ WITH selected_columns AS (
 -- Generate SQL statements to alter the data types
 SELECT
   'ALTER TABLE your_table_name ' || column_name || ' SET DATA TYPE TIMESTAMP' AS sql_statement
-FROM selected_columns;
+FROM selected_columns
